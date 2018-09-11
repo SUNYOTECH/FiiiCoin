@@ -1,0 +1,11 @@
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\bin\Debug\netstandard2.0\FiiiChain.Entities.deps.json
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\bin\Debug\netstandard2.0\FiiiChain.Entities.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\bin\Debug\netstandard2.0\FiiiChain.Entities.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\bin\Debug\netstandard2.0\FiiiChain.Framework.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\bin\Debug\netstandard2.0\FiiiChain.Framework.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\obj\Debug\netstandard2.0\FiiiChain.Entities.csprojResolveAssemblyReference.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\obj\Debug\netstandard2.0\FiiiChain.Entities.csproj.CoreCompileInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\obj\Debug\netstandard2.0\FiiiChain.Entities.AssemblyInfoInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\obj\Debug\netstandard2.0\FiiiChain.Entities.AssemblyInfo.cs
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\obj\Debug\netstandard2.0\FiiiChain.Entities.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Entities\obj\Debug\netstandard2.0\FiiiChain.Entities.pdb

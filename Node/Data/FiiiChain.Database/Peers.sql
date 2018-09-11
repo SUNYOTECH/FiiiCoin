@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Peers]
+(
+	[Id] BIGINT NOT NULL PRIMARY KEY IDENTITY, 
+    [IP] VARCHAR(50) NOT NULL, 
+    [Port] INT NOT NULL, 
+    [PingTime] BIGINT NULL , 
+    [Timestamp] BIGINT NOT NULL
+)

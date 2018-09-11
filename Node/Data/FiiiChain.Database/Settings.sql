@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Settings]
+(
+	[Id] BIGINT NOT NULL PRIMARY KEY IDENTITY, 
+    [Confirmations] INT NOT NULL DEFAULT 1, 
+    [FeePerKB] BIGINT NOT NULL DEFAULT 1000,
+    [Encrypt] BIT NOT NULL DEFAULT 0,
+    [PassCiphertext] VARCHAR(64)
+)

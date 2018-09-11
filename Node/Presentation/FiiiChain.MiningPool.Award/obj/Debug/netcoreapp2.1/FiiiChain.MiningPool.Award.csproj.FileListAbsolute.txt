@@ -1,0 +1,4 @@
+D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Award\obj\Debug\netcoreapp2.1\FiiiChain.MiningPool.Award.csprojResolveAssemblyReference.cache
+D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Award\obj\Debug\netcoreapp2.1\FiiiChain.MiningPool.Award.csproj.CoreCompileInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Award\obj\Debug\netcoreapp2.1\FiiiChain.MiningPool.Award.AssemblyInfoInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Award\obj\Debug\netcoreapp2.1\FiiiChain.MiningPool.Award.AssemblyInfo.cs

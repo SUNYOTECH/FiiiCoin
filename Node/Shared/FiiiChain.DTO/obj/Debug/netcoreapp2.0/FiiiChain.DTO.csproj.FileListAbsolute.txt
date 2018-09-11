@@ -1,0 +1,9 @@
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\bin\Debug\netcoreapp2.0\FiiiChain.DTO.deps.json
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\bin\Debug\netcoreapp2.0\FiiiChain.DTO.dll
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\bin\Debug\netcoreapp2.0\FiiiChain.DTO.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\obj\Debug\netcoreapp2.0\FiiiChain.DTO.csproj.CoreCompileInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\obj\Debug\netcoreapp2.0\FiiiChain.DTO.AssemblyInfoInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\obj\Debug\netcoreapp2.0\FiiiChain.DTO.AssemblyInfo.cs
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\obj\Debug\netcoreapp2.0\FiiiChain.DTO.dll
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\obj\Debug\netcoreapp2.0\FiiiChain.DTO.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.DTO\obj\Debug\netcoreapp2.0\FiiiChain.DTO.csprojResolveAssemblyReference.cache

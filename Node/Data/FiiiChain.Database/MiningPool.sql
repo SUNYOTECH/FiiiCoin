@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[MiningPool]
+(
+	[Id] BIGINT NOT NULL PRIMARY KEY IDENTITY,
+	[Name] VARCHAR(64) NOT NULL,
+	[PublicKey] VARCHAR(500) NOT NULL, 
+    [Signature] VARCHAR(500) NOT NULL 
+)
+
+GO

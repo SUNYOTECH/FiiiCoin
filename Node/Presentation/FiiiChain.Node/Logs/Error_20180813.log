@@ -1,0 +1,8 @@
+2018-08-13 11:50:12,817 [24] ERROR ConsoleLog [(null)] - Source array was not long enough. Check the source index, length, and the array's lower bounds.
+Parameter name: sourceArray
+System.ArgumentException: Source array was not long enough. Check the source index, length, and the array's lower bounds.
+Parameter name: sourceArray
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   at FiiiChain.Messages.P2PCommand.ConvertBytesToMessage(Byte[] bytes) in D:\FiiiChain\FiiiChain\FiiiChain.Messages\P2PCommand.cs:line 148
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\FiiiChain\FiiiChain\FiiiChain.DataAgent\P2P.cs:line 443

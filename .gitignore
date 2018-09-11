@@ -1,0 +1,10 @@
+
+*.lock
+*.ide
+Node/.vs/FiiiCoin/v15/.suo
+*.dll
+*.pdb
+*.json
+*.props
+*.targets
+*.cache

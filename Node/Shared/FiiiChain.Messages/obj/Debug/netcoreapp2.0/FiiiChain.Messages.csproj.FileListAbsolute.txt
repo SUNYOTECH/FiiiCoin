@@ -1,0 +1,15 @@
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\bin\Debug\netcoreapp2.0\FiiiChain.Messages.deps.json
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\bin\Debug\netcoreapp2.0\FiiiChain.Messages.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\bin\Debug\netcoreapp2.0\FiiiChain.Messages.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\bin\Debug\netcoreapp2.0\FiiiChain.Entities.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\bin\Debug\netcoreapp2.0\FiiiChain.Framework.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\bin\Debug\netcoreapp2.0\FiiiChain.Entities.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\bin\Debug\netcoreapp2.0\FiiiChain.Framework.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\obj\Debug\netcoreapp2.0\FiiiChain.Messages.csprojResolveAssemblyReference.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\obj\Debug\netcoreapp2.0\FiiiChain.Messages.Resource.resources
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\obj\Debug\netcoreapp2.0\FiiiChain.Messages.csproj.GenerateResource.Cache
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\obj\Debug\netcoreapp2.0\FiiiChain.Messages.csproj.CoreCompileInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\obj\Debug\netcoreapp2.0\FiiiChain.Messages.AssemblyInfoInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\obj\Debug\netcoreapp2.0\FiiiChain.Messages.AssemblyInfo.cs
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\obj\Debug\netcoreapp2.0\FiiiChain.Messages.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Messages\obj\Debug\netcoreapp2.0\FiiiChain.Messages.pdb

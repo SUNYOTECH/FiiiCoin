@@ -1,0 +1,15 @@
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Consensus.deps.json
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Consensus.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Consensus.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Entities.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Framework.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Messages.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Entities.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Messages.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\bin\Debug\netcoreapp2.0\FiiiChain.Framework.pdb
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\obj\Debug\netcoreapp2.0\FiiiChain.Consensus.csprojResolveAssemblyReference.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\obj\Debug\netcoreapp2.0\FiiiChain.Consensus.csproj.CoreCompileInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\obj\Debug\netcoreapp2.0\FiiiChain.Consensus.AssemblyInfoInputs.cache
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\obj\Debug\netcoreapp2.0\FiiiChain.Consensus.AssemblyInfo.cs
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\obj\Debug\netcoreapp2.0\FiiiChain.Consensus.dll
+D:\FiiiChain\FiiiChain\FiiiChain.Consensus\obj\Debug\netcoreapp2.0\FiiiChain.Consensus.pdb
