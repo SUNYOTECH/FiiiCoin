@@ -1,9 +1,0 @@
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\bin\Debug\FiiiChain.MiningPool.Database.dacpac
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\bin\Debug\FiiiChain.MiningPool.Database.dll
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\bin\Debug\FiiiChain.MiningPool.Database.pdb
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\obj\Debug\Model.xml
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\obj\Debug\refactor.xml
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\obj\Debug\postdeploy.sql
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\obj\Debug\predeploy.sql
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\obj\Debug\FiiiChain.MiningPool.Database.dll
-D:\FiiiChain\FiiiChain\FiiiChain.MiningPool.Database\obj\Debug\FiiiChain.MiningPool.Database.pdb

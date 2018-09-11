@@ -1,4 +1,0 @@
-D:\FiiiChain\FiiiChain\FiiiChain.InvestorAward\obj\Debug\netcoreapp2.1\FiiiChain.InvestorAward.csprojResolveAssemblyReference.cache
-D:\FiiiChain\FiiiChain\FiiiChain.InvestorAward\obj\Debug\netcoreapp2.1\FiiiChain.InvestorAward.csproj.CoreCompileInputs.cache
-D:\FiiiChain\FiiiChain\FiiiChain.InvestorAward\obj\Debug\netcoreapp2.1\FiiiChain.InvestorAward.AssemblyInfoInputs.cache
-D:\FiiiChain\FiiiChain\FiiiChain.InvestorAward\obj\Debug\netcoreapp2.1\FiiiChain.InvestorAward.AssemblyInfo.cs

@@ -8,3 +8,5 @@ Node/.vs/FiiiCoin/v15/.suo
 *.props
 *.targets
 *.cache
+*.dbmdl
+*.jfm
