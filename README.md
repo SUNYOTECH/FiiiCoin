@@ -1,4 +1,4 @@
-# FiiiChain
+# FiiiCoin
 
 An easy understanding and customizable blockchain framework based on layered architecture design pattern.
 
