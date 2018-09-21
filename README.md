@@ -74,17 +74,7 @@ For expert:
 
 # Mining
 
-1. Run the wallet with administrator rights
-
-2. Wait for block synchronization to be complete
-
-3. Click Receive Address from the top menu of the wallet
-
-4. Copy the wallet address
-
-5. Download and extract FiiiCoin.Miner_portable.zip
-
-6. Execute dotnet FiiiCoin.Miner.dll mining <Worker> <Wallet Address>
+Mining is not supported in PC version software for Delegate Proof of Capacity consensus. You need to purchase FiiiPOS terminal which contain a serial number registered in our FiiiCoin blockchain to be able to mine FiiiCoin.
   
 # Resources
 
