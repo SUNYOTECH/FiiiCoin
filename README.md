@@ -74,7 +74,23 @@ For expert:
 
 # Mining
 
-Mining is not supported in PC version software for Delegate Proof of Capacity consensus. You need to purchase FiiiPOS terminal which contain a serial number registered in our FiiiCoin blockchain to be able to mine FiiiCoin.
+Mining is not supported in PC version software for Delegate Proof of Capacity consensus. You need to purchase a FiiiPOS terminal which contain a serial number that already registered in our FiiiCoin blockchain. You need specific hardware ID in order to be able to mine FiiiCoin.
+
+# Explorer
+
+FiiiCoin testnet blockchain explorer is available now: https://explorer.fiii.io
+
+# Faucet
+
+Please drop an email to developer@fiii.io to request for free FiiiCoin in testnet for your research and testing purpose.
+
+Kindly specify the following information into the email in order to fasten the FiiiCoin transfer process.
+
+1. Name
+2. Personal? Company?
+3. FiiiCoin testnet wallet address (begin with fiiit......)
+4. Amount of FiiiCoin
+5. Purpose of obtaining FiiiCoin
   
 # Resources
 
