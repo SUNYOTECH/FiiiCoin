@@ -1,0 +1,1118 @@
+2018-09-24 12:29:17,721 [20] ERROR ConsoleLog [(null)] - Cannot access a disposed object.
+Object name: 'System.Net.Sockets.UdpClient'.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.UdpClient'.
+   at System.Net.Sockets.UdpClient.EndReceive(IAsyncResult asyncResult, IPEndPoint& remoteEP)
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 393
+2018-09-24 16:47:39,589 [7] ERROR ConsoleLog [(null)] - Source array was not long enough. Check the source index, length, and the array's lower bounds.
+Parameter name: sourceArray
+System.ArgumentException: Source array was not long enough. Check the source index, length, and the array's lower bounds.
+Parameter name: sourceArray
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   at FiiiChain.Messages.P2PCommand.ConvertBytesToMessage(Byte[] bytes) in D:\GitHub\FiiiCoin\Node\Shared\FiiiChain.Messages\P2PCommand.cs:line 156
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 455
+2018-09-24 16:47:43,178 [23] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:47:43,225 [23] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:48:22,801 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:48:22,834 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:48:53,207 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:48:53,242 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:49:33,336 [25] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:49:33,368 [25] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:50:02,894 [25] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:50:02,925 [25] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:50:33,169 [25] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:50:33,212 [25] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:51:13,343 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:51:13,380 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:52:24,090 [7] ERROR ConsoleLog [(null)] - Error Code: 1030105
+FiiiChain.Framework.CommonException: Error Code: 1030105
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 456
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:52:24,120 [7] ERROR ConsoleLog [(null)] - Error Code: 1030105
+FiiiChain.Framework.CommonException: Error Code: 1030105
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:52:53,230 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:52:53,268 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:53:33,303 [23] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:53:33,341 [23] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:54:03,789 [23] ERROR ConsoleLog [(null)] - Error Code: 1030105
+FiiiChain.Framework.CommonException: Error Code: 1030105
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 456
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:54:03,821 [23] ERROR ConsoleLog [(null)] - Error Code: 1030105
+FiiiChain.Framework.CommonException: Error Code: 1030105
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:55:23,185 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:55:23,223 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:56:33,435 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:56:33,468 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:57:13,431 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:57:13,502 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:57:53,314 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:57:53,352 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:58:23,286 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:58:23,319 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:59:03,435 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:59:03,464 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 16:59:33,676 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 16:59:33,709 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:00:03,895 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:00:03,926 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:00:43,755 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:00:43,790 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:01:24,295 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:01:24,337 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:02:02,995 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:02:03,028 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:02:43,303 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:02:43,335 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:03:13,378 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:03:13,411 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:03:53,232 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:03:53,270 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:04:33,289 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:04:33,342 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:05:13,521 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:05:13,565 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:05:53,263 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:05:53,301 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:06:22,974 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:06:23,013 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:07:03,268 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:07:03,317 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:07:43,407 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:07:43,449 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:08:13,337 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:08:13,373 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:08:43,338 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:08:43,376 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:09:23,199 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:09:23,229 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:09:53,452 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:09:53,483 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:10:23,301 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:10:23,341 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:11:03,103 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:11:03,145 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:11:33,339 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:11:33,372 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:12:03,233 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:12:03,269 [19] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:12:43,092 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:12:43,131 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:13:23,214 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:13:23,251 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:13:53,421 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:13:53,468 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:14:23,212 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:14:23,249 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:15:03,641 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:15:03,674 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:15:43,231 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:15:43,271 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:16:23,587 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:16:23,622 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:16:53,632 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:16:53,666 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:17:33,132 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:17:33,169 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:18:13,065 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:18:13,104 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:18:53,169 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:18:53,201 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:19:23,155 [3] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:19:23,192 [3] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:20:03,088 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:20:03,120 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:20:43,138 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:20:43,178 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:21:13,360 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:21:13,390 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:21:43,326 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:21:43,367 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:22:53,715 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:22:53,747 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:23:33,097 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:23:33,134 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:24:13,171 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:24:13,218 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:24:43,364 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:24:43,401 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:25:23,434 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:25:23,464 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:25:53,527 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:25:53,571 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:26:33,449 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:26:33,479 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:27:13,370 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:27:13,414 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:27:53,699 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:27:53,733 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:28:33,457 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:28:33,498 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:29:13,644 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:29:13,677 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:29:43,513 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:29:43,549 [21] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:30:24,237 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:30:24,267 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:30:53,871 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:30:53,921 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:31:33,237 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:31:33,285 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:32:13,653 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:32:13,693 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:32:53,943 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:32:53,984 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:33:33,528 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:33:33,580 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:34:03,489 [13] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:34:03,521 [13] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:34:43,351 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:34:43,381 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:35:23,177 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:35:23,220 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:35:53,528 [13] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:35:53,566 [13] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:36:33,352 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:36:33,390 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:37:13,538 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:37:13,592 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:37:53,317 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:37:53,378 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:38:33,197 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:38:33,228 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:39:13,477 [3] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:39:13,515 [3] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:39:44,770 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:39:44,807 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:40:23,550 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:40:23,587 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:41:03,259 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:41:03,292 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:41:34,157 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:41:34,197 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:42:03,514 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:42:03,556 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:42:33,514 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:42:33,549 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:43:13,129 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:43:13,158 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:43:53,410 [3] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:43:53,446 [3] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:44:36,884 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:44:36,950 [7] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508
+2018-09-24 17:45:13,260 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.VerifyBlock(BlockMsg newBlock) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 447
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 269
+2018-09-24 17:45:13,301 [22] ERROR ConsoleLog [(null)] - Error Code: 1030106
+FiiiChain.Framework.CommonException: Error Code: 1030106
+   at FiiiChain.Business.BlockComponent.SaveBlockIntoDB(BlockMsg msg) in D:\GitHub\FiiiCoin\Node\Business\FiiiChain.Business\BlockComponent.cs:line 331
+   at FiiiChain.Node.P2PJob.saveBlockToDB(BlockMsg block) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 787
+   at FiiiChain.Node.P2PJob.receivedBlocksMessage(String address, Int32 port, BlocksMsg msg) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 685
+   at FiiiChain.Node.P2PJob.dataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Presentation\FiiiChain.Node\P2PJob.cs:line 181
+   at FiiiChain.DataAgent.P2P.raiseDataReceived(P2PState state) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 531
+   at FiiiChain.DataAgent.P2P.receiveDataAsync(IAsyncResult ar) in D:\GitHub\FiiiCoin\Node\Data\FiiiChain.DataAgent\P2P.cs:line 508

@@ -16,6 +16,7 @@ using FiiiChain.Consensus;
 using FiiiChain.Entities;
 using Newtonsoft.Json;
 using System.Numerics;
+using System.Text;
 
 namespace FiiiChain.Wallet.API
 {

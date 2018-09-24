@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FiiiChain.Entities\FiiiChain.Entities.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.Entities\FiiiChain.Entities.csproj" />
   </ItemGroup>
 
   <ItemGroup>

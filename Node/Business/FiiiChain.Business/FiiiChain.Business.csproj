@@ -6,12 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FiiiChain.Consensus\FiiiChain.Consensus.csproj" />
-    <ProjectReference Include="..\FiiiChain.DataAgent\FiiiChain.DataAgent.csproj" />
-    <ProjectReference Include="..\FiiiChain.Data\FiiiChain.Data.csproj" />
-    <ProjectReference Include="..\FiiiChain.Entities\FiiiChain.Entities.csproj" />
-    <ProjectReference Include="..\FiiiChain.Framework\FiiiChain.Framework.csproj" />
-    <ProjectReference Include="..\FiiiChain.Messages\FiiiChain.Messages.csproj" />
+    <ProjectReference Include="..\..\Data\FiiiChain.DataAgent\FiiiChain.DataAgent.csproj" />
+    <ProjectReference Include="..\..\Data\FiiiChain.Data\FiiiChain.Data.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.Consensus\FiiiChain.Consensus.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.Entities\FiiiChain.Entities.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.Framework\FiiiChain.Framework.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.Messages\FiiiChain.Messages.csproj" />
   </ItemGroup>
 
   <ItemGroup>

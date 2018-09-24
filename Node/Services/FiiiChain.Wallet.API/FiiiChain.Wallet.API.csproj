@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FiiiChain.Business\FiiiChain.Business.csproj" />
-    <ProjectReference Include="..\FiiiChain.DTO\FiiiChain.DTO.csproj" />
+    <ProjectReference Include="..\..\Business\FiiiChain.Business\FiiiChain.Business.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.DTO\FiiiChain.DTO.csproj" />
   </ItemGroup>
 
 </Project>

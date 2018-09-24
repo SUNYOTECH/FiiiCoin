@@ -30,11 +30,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FiiiChain.Business\FiiiChain.Business.csproj" />
-    <ProjectReference Include="..\FiiiChain.Entities\FiiiChain.Entities.csproj" />
-    <ProjectReference Include="..\FiiiChain.Framework\FiiiChain.Framework.csproj" />
-    <ProjectReference Include="..\FiiiChain.Messages\FiiiChain.Messages.csproj" />
-    <ProjectReference Include="..\FiiiChain.Wallet.API\FiiiChain.Wallet.API.csproj" />
+    <ProjectReference Include="..\..\Business\FiiiChain.Business\FiiiChain.Business.csproj" />
+    <ProjectReference Include="..\..\Services\FiiiChain.Wallet.API\FiiiChain.Wallet.API.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.Entities\FiiiChain.Entities.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.Framework\FiiiChain.Framework.csproj" />
+    <ProjectReference Include="..\..\Shared\FiiiChain.Messages\FiiiChain.Messages.csproj" />
   </ItemGroup>
 
   <ItemGroup>
