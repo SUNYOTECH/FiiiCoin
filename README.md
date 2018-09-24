@@ -1,4 +1,4 @@
-# FiiiChain
+# FiiiCoin
 
 An easy understanding and customizable blockchain framework based on layered architecture design pattern.
 
@@ -74,17 +74,23 @@ For expert:
 
 # Mining
 
-1. Run the wallet with administrator rights
+Mining is not supported in PC version software for Delegate Proof of Capacity consensus. You need to purchase a FiiiPOS terminal which contain a serial number that already registered in our FiiiCoin blockchain. You need specific hardware ID in order to be able to mine FiiiCoin.
 
-2. Wait for block synchronization to be complete
+# Explorer
 
-3. Click Receive Address from the top menu of the wallet
+FiiiCoin testnet blockchain explorer is available now: https://explorer.fiii.io
 
-4. Copy the wallet address
+# Faucet
 
-5. Download and extract FiiiCoin.Miner_portable.zip
+Please drop an email to developer@fiii.io to request for free FiiiCoin in testnet for your research and testing purpose.
 
-6. Execute dotnet FiiiCoin.Miner.dll mining <Worker> <Wallet Address>
+Kindly specify the following information into the email in order to fasten the FiiiCoin transfer process.
+
+1. Name
+2. Personal? Company?
+3. FiiiCoin testnet wallet address (begin with fiiit......)
+4. Amount of FiiiCoin
+5. Purpose of obtaining FiiiCoin
   
 # Resources
 
