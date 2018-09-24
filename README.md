@@ -72,6 +72,8 @@ For expert:
 
 4. Run the mining application by executing the FiiiCoin.Miner in the Wallet folder
 
+For more info: [Link](https://github.com/FiiiLab/FiiiCoin/wiki/Getting-Started)
+
 # Mining
 
 Mining is not supported in PC version software for Delegate Proof of Capacity consensus. You need to purchase a FiiiPOS terminal which contain a serial number that already registered in our FiiiCoin blockchain. You need specific hardware ID in order to be able to mine FiiiCoin.
