@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FiiiCoin.DTO\FiiiCoin.DTO.csproj" />
+    <ProjectReference Include="..\FiiiCoin.Models\FiiiCoin.Models.csproj" />
+    <ProjectReference Include="..\FiiiCoin.ServiceAgent\FiiiCoin.ServiceAgent.csproj" />
+    <ProjectReference Include="..\FiiiCoin.Utility\FiiiCoin.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
