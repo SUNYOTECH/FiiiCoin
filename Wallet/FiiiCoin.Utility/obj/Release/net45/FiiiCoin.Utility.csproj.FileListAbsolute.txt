@@ -19,3 +19,4 @@ F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\zh\FiiiCoin.Utility.r
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\FiiiCoin.Utility.csproj.CopyComplete
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\FiiiCoin.Utility.dll
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\FiiiCoin.Utility.pdb
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\FiiiCoin.Utility.csprojAssemblyReference.cache
