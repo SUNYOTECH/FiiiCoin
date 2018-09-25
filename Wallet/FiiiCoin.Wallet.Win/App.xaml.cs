@@ -121,7 +121,7 @@ namespace FiiiCoin.Wallet.Win
         private static bool DetectRunTime()
         {
             RegistryKey hkml = Registry.LocalMachine;
-            RegistryKey software = hkml.OpenSubKey(@"\SOFTWARE\WOW6432Node\Microsoft\Updates\", false);
+            RegistryKey software = hkml.OpenSubKey(@"SOFTWARE\WOW6432Node\Microsoft\Updates\", false);
             var names = software.GetSubKeyNames();
 
             if (!names.Any(x => x.ToLower().Contains("visual c++")))

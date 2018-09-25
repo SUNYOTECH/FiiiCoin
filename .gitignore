@@ -10,3 +10,4 @@ Node/.vs/FiiiCoin/v15/.suo
 *.cache
 *.dbmdl
 *.jfm
+Wallet/FiiiCoin.Wallet.Win/obj/

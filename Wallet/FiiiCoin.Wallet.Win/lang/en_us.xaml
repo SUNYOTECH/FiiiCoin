@@ -310,6 +310,6 @@
     <sys:String x:Key="Closing_caption1">Closing FiiiCoin Wallet......</sys:String>
     <sys:String x:Key="Closing_caption2">Do not turn off the computer before this window closes</sys:String>
 
-    <sys:String x:Key="init_caption1">Fast. Pay. High technology</sys:String>
+    <sys:String x:Key="init_caption1">Fast , Payment , Advance Technology</sys:String>
     <sys:String x:Key="init_caption2">Encryption Algorithm</sys:String>
 </ResourceDictionary>

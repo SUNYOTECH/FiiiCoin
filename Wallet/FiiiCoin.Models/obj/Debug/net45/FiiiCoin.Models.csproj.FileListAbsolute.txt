@@ -5,3 +5,4 @@ F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\net45\FiiiCoin.Models.Assembly
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\net45\FiiiCoin.Models.AssemblyInfo.cs
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\net45\FiiiCoin.Models.dll
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\net45\FiiiCoin.Models.pdb
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\net45\FiiiCoin.Models.csprojAssemblyReference.cache

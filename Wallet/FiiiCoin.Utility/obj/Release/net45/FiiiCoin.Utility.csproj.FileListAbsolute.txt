@@ -9,7 +9,6 @@ F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Release\net45\System.Memory.dll
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Release\net45\System.Runtime.CompilerServices.Unsafe.dll
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Release\net45\zxing.dll
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Release\net45\zxing.presentation.dll
-F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\FiiiCoin.Utility.csprojAssemblyReference.cache
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\FiiiCoin.Utility.Localization.SourceFiles.FiiiCoinLocalization.resources
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\FiiiCoin.Utility.Localization.SourceFiles.FiiiCoinLocalization.zh.resources
 F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Release\net45\FiiiCoin.Utility.csproj.GenerateResource.cache
