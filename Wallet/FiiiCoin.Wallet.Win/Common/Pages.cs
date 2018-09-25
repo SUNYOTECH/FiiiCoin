@@ -31,5 +31,6 @@ namespace FiiiCoin.Wallet.Win.Common
         public const string TradeDetailMiningPage = "TradeDetailMiningPage";
         public const string TradeDetailSendPage = "TradeDetailSendPage";
         public const string TradeDetailReceivePage = "TradeDetailReceivePage";
+        public const string ImagePage = "ImagePage";
     }
 }

@@ -6,6 +6,8 @@ using FiiiCoin.Wallet.Win.Biz.Monitor;
 using FiiiCoin.Wallet.Win.Biz.Services;
 using FiiiCoin.Wallet.Win.Common;
 using FiiiCoin.Wallet.Win.Common.Utils;
+using FiiiCoin.Wallet.Win.Models;
+using FiiiCoin.Wallet.Win.Models.CommonParams;
 using FiiiCoin.Wallet.Win.Models.UiModels;
 using GalaSoft.MvvmLight.Command;
 using Microsoft.Win32;
@@ -27,20 +29,16 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
         }
 
         public ICommand BtnCommand { get; private set; }
-        
+        public ICommand MouseDubleClickCommand { get; private set; }
+
         protected override void OnLoaded()
         {
             base.OnLoaded();
+
             BtnCommand = new RelayCommand<string>(OnCommand);
+            MouseDubleClickCommand = new RelayCommand<UrlInfo>(OnMouseDubleClick);
             RegeistMessenger<UrlInfo>(OnRequestCreateUrl);
             RegeistMessenger<PayUrlPageType>(OnGetRequest);
-            LoadUrls();
-            UrlInfos.CollectionChanged += (s, e) => { RaisePropertyChanged("UrlInfos"); };
-        }
-
-        
-        void LoadUrls()
-        {
             PayAddressBookMonitor.Default.MonitorCallBack += books => {
                 Application.Current.Dispatcher.Invoke(() =>
                 {
@@ -52,6 +50,13 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
                     });
                 });
             };
+            LoadUrls();
+            UrlInfos.CollectionChanged += (s, e) => { RaisePropertyChanged("UrlInfos"); };
+        }
+        
+        void LoadUrls()
+        {
+            PayAddressBookMonitor.Default.Start(3000);
         }
 
         protected override void Refresh()
@@ -99,7 +104,7 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
             if (urlInfo == null)
                 return;
             var netstr = "mainnet";
-            switch (NodeMonitor.Default.CurrentNetworkType)
+            switch (NodeSetting.CurrentNetworkType)
             {
                 case Biz.NetworkType.MainnetPort:
                     break;
@@ -126,7 +131,8 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
                     var result = AddressBookService.Default.AddNewAddressBookItem(urlInfo.Address,urlInfo.Tag);
                     if (!result.IsFail)
                     {
-                        UrlInfos.Add(urlInfo);
+                        //UrlInfos.Add(urlInfo);
+                        LoadUrls();
                     }
                     else
                     {
@@ -206,6 +212,21 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
                     break;
                 default:
                     break;
+            }
+        }
+
+        private void OnMouseDubleClick(UrlInfo selectitem)
+        {
+            if (selectitem != null)
+            {
+                SendMsgData<TitleWithParams<string>> sendMsgData = new SendMsgData<TitleWithParams<string>>();
+                sendMsgData.Token = new TitleWithParams<string> {  Params = selectitem.Address ,Title = "PayAddress" };
+                sendMsgData.SetCallBack(() =>
+                {
+                    UpdatePage(Pages.PayUrlsPage);
+                });
+                SendMessenger(Pages.ImagePage, sendMsgData);
+                UpdatePage(Pages.ImagePage);
             }
         }
 

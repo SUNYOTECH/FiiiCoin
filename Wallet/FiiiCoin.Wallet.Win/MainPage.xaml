@@ -8,7 +8,6 @@
     xmlns:controls="clr-namespace:FiiiCoin.Wallet.Win.CustomControls"
     x:Class="FiiiCoin.Wallet.Win.MainPage"
     mc:Ignorable="d"
-    MinHeight="768" MinWidth="1024"
     Title="Bitcoin Core">
     <Page.DataContext>
         <vm:MainViewModel/>

@@ -45,7 +45,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <TextBlock Text="Fiii" VerticalAlignment="Center" Foreground="#333333" Margin="10 0 0 0"/>
+                <TextBlock Text="FIII" VerticalAlignment="Center" Foreground="#333333" Margin="10 0 0 0"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" Margin="0 15 0 0">

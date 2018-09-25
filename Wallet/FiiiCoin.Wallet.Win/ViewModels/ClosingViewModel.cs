@@ -25,9 +25,17 @@ namespace FiiiCoin.Wallet.Win.ViewModels
         void OnClosing(Window window)
         {
             ServiceMonitor.StopAll();
-            if (NodeMonitor.Default.PortInUse(NodeMonitor.Default.CurrentNetworkType))
+
+            if (!NodeMonitor.Default.Set_NetIsActive)
+            {
+                NetWorkService.Default.SetNetworkActive(true);
+                System.Threading.Thread.Sleep(1000);
+            }
+
+            while (NodeMonitor.Default.PortInUse() || NodeMonitor.Default.PortInUse_TCP())
             {
                 var result = EngineService.Default.AppClosed();
+                System.Threading.Thread.Sleep(500);
             }
             Environment.Exit(1);
         }

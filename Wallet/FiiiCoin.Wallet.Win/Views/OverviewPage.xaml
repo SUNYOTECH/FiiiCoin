@@ -74,11 +74,11 @@
 
                 <TextBlock Grid.Column="1" Grid.Row="2" Margin="60 0 20 0" FontSize="16" Foreground="#333333" Height="22" Text="{DynamicResource Title_Total}"/>
 
-                <TextBlock Grid.Column="2" Grid.Row="0" Margin="20 0" FontSize="16" Foreground="#333333" Height="22" Text="{Binding CanUseMoney,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0:N8} Fiii}"/>
+                <TextBlock Grid.Column="2" Grid.Row="0" Margin="20 0" FontSize="16" Foreground="#333333" Height="22" Text="{Binding CanUseMoney,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0:N8} FIII}"/>
 
-                <TextBlock Grid.Column="2" Grid.Row="1" Margin="20 0" FontSize="16" Foreground="#333333" Height="22" Text="{Binding WaitMoney,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0:N8} Fiii}"/>
+                <TextBlock Grid.Column="2" Grid.Row="1" Margin="20 0" FontSize="16" Foreground="#333333" Height="22" Text="{Binding WaitMoney,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0:N8} FIII}"/>
 
-                <TextBlock Grid.Column="2" Grid.Row="2" Margin="20 0" FontSize="16" Foreground="#333333" Height="22" Text="{Binding TotalMoney,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0:N8} Fiii}"/>
+                <TextBlock Grid.Column="2" Grid.Row="2" Margin="20 0" FontSize="16" Foreground="#333333" Height="22" Text="{Binding TotalMoney,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0:N8} FIII}"/>
 
                 <Image Grid.Row="3" Grid.ColumnSpan="4" Source="../images/page/amountChart.png" Width="400" MaxHeight="400" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
             </Grid>

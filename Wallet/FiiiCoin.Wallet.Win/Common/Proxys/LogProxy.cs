@@ -23,13 +23,21 @@ namespace FiiiCoin.Wallet.Win.Common.Proxys
         public override IMessage Invoke(IMessage msg)
         {
             IMethodCallMessage callMessage = (IMethodCallMessage)msg;
-            PreProceede(callMessage);
+            //PreProceede(callMessage);
 
             AutoResetEvent autoResetEvent = new AutoResetEvent(false);
             object returnResult = null;
-            var task = Task.Factory.StartNew(async () =>
+            var task = Task.Factory.StartNew(() =>
             {
-                returnResult = callMessage.MethodBase.Invoke(this._target, callMessage.Args);
+                try
+                {
+                    returnResult = callMessage.MethodBase.Invoke(this._target, callMessage.Args);
+                }
+                catch (Exception ex)
+                {
+                    Logger.Singleton.ErrorFormat("Error Method in {0}", callMessage.MethodName);
+                    Logger.Singleton.Error(ex.Message);
+                }
                 autoResetEvent.Set();
             });
             autoResetEvent.WaitOne();
@@ -37,7 +45,7 @@ namespace FiiiCoin.Wallet.Win.Common.Proxys
             if (returnResult is Result)
             {
                 var result = returnResult as Result;
-                PostProceede(result);
+                PostProceede(callMessage.MethodName, result);
             }
 
             return new ReturnMessage(returnResult, new object[0], 0, null, callMessage);
@@ -52,18 +60,25 @@ namespace FiiiCoin.Wallet.Win.Common.Proxys
             });
         }
 
-        public void PostProceede(Result result)
+        public void PostProceede(string methodName, Result result)
         {
             if (result == null) return;
 
-            if (result.ApiResponse!=null)
+            if (result.ApiResponse == null || result.ApiResponse.Result == null)
+                return;
+
+            Application.Current.Dispatcher.Invoke(() =>
             {
-                Application.Current.Dispatcher.Invoke(() =>
+                if (result.ApiResponse.HasError)
                 {
-                    if (result.ApiResponse.Result != null)
-                        Logger.Singleton.Info(result.ApiResponse.Result.ToString().Replace("\r\n", ""));
-                });
-            }
+                    Logger.Singleton.InfoFormat("Mathod({0}) ErrorCode = {1} , ErrorMessage = {2}", methodName, result.ApiResponse.Error.Code, result.GetErrorMsg());
+                }
+                else
+                {
+                    var receiveContent = result.ApiResponse.Result.ToString();
+                    Logger.Singleton.InfoFormat("Mathod({0}) Result = {1}", methodName, receiveContent.Replace("\r\n", ""));
+                }
+            });
         }
     }
 

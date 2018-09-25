@@ -43,7 +43,7 @@
             <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="2" Grid.Column="1" Text="{Binding TradeRecordInfo.Payment.Time,Converter={StaticResource _timestampToDateTimeConverter},ConverterParameter='yyyy-MM-dd HH:mm:ss'}" Margin="20 5"/>
 
             <TextBlock Grid.Row="3" Text="{DynamicResource tradeAmount}" Margin="0 5"/>
-            <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="3" Grid.Column="1" Text="{Binding TradeRecordInfo.Payment.Amount,Converter={StaticResource _longToDoubleConverter}}" Margin="20 5"/>
+            <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="3" Grid.Column="1" Text="{Binding TradeRecordInfo.Payment.Amount,Converter={StaticResource _longToDoubleConverter}, StringFormat={}{0} FIII}" Margin="20 5"/>
 
             <TextBlock Grid.Row="4" Text="{DynamicResource tradeTxid}" Margin="0 5"/>
             <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="4" Grid.Column="1" Text="{Binding TradeRecordInfo.Payment.TxId}" Margin="20 5"/>

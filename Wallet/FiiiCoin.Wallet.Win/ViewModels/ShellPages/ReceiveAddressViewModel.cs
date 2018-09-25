@@ -6,6 +6,7 @@ using FiiiCoin.Wallet.Win.Biz.Services;
 using FiiiCoin.Wallet.Win.Common;
 using FiiiCoin.Wallet.Win.Common.Utils;
 using FiiiCoin.Wallet.Win.Models;
+using FiiiCoin.Wallet.Win.Models.CommonParams;
 using FiiiCoin.Wallet.Win.Models.UiModels;
 using GalaSoft.MvvmLight.Command;
 using Microsoft.Win32;
@@ -25,23 +26,17 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
         {
             return Pages.ReceiveAddressPage;
         }
-
-
-
+        
         public ICommand BtnCommand { get; private set; }
+        public ICommand MouseDubleClickCommand { get; private set; }
 
         protected override void OnLoaded()
         {
             base.OnLoaded();
             BtnCommand = new RelayCommand<string>(OnCommand);
+            MouseDubleClickCommand = new RelayCommand<UrlInfo>(OnMouseDubleClick);
             RegeistMessenger<UrlInfo>(OnRequestCreateUrl);
 
-            LoadUrls();
-            UrlInfos.CollectionChanged += (s, e) => { RaisePropertyChanged("UrlInfos"); };
-        }
-
-        void LoadUrls()
-        {
             ReceiveAddressBookMonitor.Default.MonitorCallBack += accounts =>
             {
                 ReceiveAddressBookMonitor.Default.Stop();
@@ -51,6 +46,14 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
                     accounts.ForEach(x => UrlInfos.Add(new UrlInfo() { Address = x.Address, Tag = x.Tag }));
                 });
             };
+
+            LoadUrls();
+            UrlInfos.CollectionChanged += (s, e) => { RaisePropertyChanged("UrlInfos"); };
+        }
+
+        void LoadUrls()
+        {
+            ReceiveAddressBookMonitor.Default.Start(3000);
         }
 
         private ObservableCollection<UrlInfo> urlInfos;
@@ -172,6 +175,21 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
             newinfo.Mode = UrlMode.CreateByReceive;
             SendMessenger(Pages.CreatePayUrlPage, newinfo);
             UpdatePage(Pages.CreatePayUrlPage);
+        }
+
+        void OnMouseDubleClick(UrlInfo selectitem)
+        {
+            if (selectitem != null)
+            {
+                SendMsgData<TitleWithParams<string>> sendMsgData = new SendMsgData<TitleWithParams<string>>();
+                sendMsgData.Token = new TitleWithParams<string> { Params = selectitem.Address, Title = "ReceiveAddress" };
+                sendMsgData.SetCallBack(() =>
+                {
+                    UpdatePage(Pages.ReceiveAddressPage);
+                });
+                SendMessenger(Pages.ImagePage, sendMsgData);
+                UpdatePage(Pages.ImagePage);
+            }
         }
 
         protected override void Refresh()

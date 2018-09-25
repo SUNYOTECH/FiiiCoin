@@ -41,7 +41,7 @@
     <sys:String x:Key="Btn_AddPayee">Add Recipient</sys:String>
     <sys:String x:Key="Title_Over1">Balance:</sys:String>
 
-    <sys:String x:Key="Tb_InputUriMsg">Enter a Fiiicoin address</sys:String>
+    <sys:String x:Key="Tb_InputUriMsg">Enter a FiiiCoin address</sys:String>
     <sys:String x:Key="Tb_InputTagMsg">Enter a label for this address</sys:String>
     <!--and save it to you address book-->
 
@@ -99,10 +99,10 @@
     <sys:String x:Key="template_senditeminfo_tb_all">All</sys:String>
 
     <sys:String x:Key="page_tradefee">Transaction Fee</sys:String>
-    <sys:String x:Key="page_fee_tbk_recommended">Recommended：0.0104 FIII / kb</sys:String>
+    <sys:String x:Key="page_fee_tbk_recommended">Recommended：0.001 FIII / kb</sys:String>
     <sys:String x:Key="page_fee_tbk_sureTimeGoal">Comfirmation time target</sys:String>
     <sys:String x:Key="page_fee_txb_customer">Custom</sys:String>
-    <sys:String x:Key="page_fee_rb_prompt">Only need to pay the required fee of 0.010 FIII / kb(please refer to the tips when select)</sys:String>
+    <sys:String x:Key="page_fee_rb_prompt">Only need to pay the required fee of 0.00001024 FIII / kb(please refer to the tips when select)</sys:String>
     <sys:String x:Key="page_fee_txb_prompt">If this option is selected, allow to pay the minimun transaction fee when transaction volume is samll.Your transaction may never be confirmed when the transaction volume is too large to handle on the network</sys:String>
 
 
@@ -189,7 +189,7 @@
     <sys:String x:Key="config_languageSwitch">Language Switch</sys:String>
 
     <sys:String x:Key="config_help">Help(H)</sys:String>
-    <sys:String x:Key="config_aboutFiiicoin">About Fiiicoin</sys:String>
+    <sys:String x:Key="config_aboutFiiicoin">About FiiiCoin</sys:String>
 
     <sys:String x:Key="config_overview">Overview</sys:String>
     <sys:String x:Key="config_Send">Send</sys:String>
@@ -215,10 +215,10 @@
 
     <sys:String x:Key="SyncProgress">Synchronization progress</sys:String>
     <sys:String x:Key="synchronizing">Synchronizing</sys:String>
-    <sys:String x:Key="remainingblocksCount">left block height</sys:String>
+    <sys:String x:Key="remainingblocksCount">Left block height</sys:String>
     <sys:String x:Key="stratDataTime">Update Start Time</sys:String>
     <sys:String x:Key="Rate">Rate</sys:String>
-    <sys:String x:Key="STRS">Remaining time</sys:String>
+    <sys:String x:Key="STRS">Remaining Time</sys:String>
 
     <sys:String x:Key="ConfirmSendTitle">Confirm</sys:String>
     <sys:String x:Key="ConfirmSend">Confirm sending?</sys:String>
@@ -282,10 +282,10 @@
     <sys:String x:Key="Error_Search_Amount">Amount Sent</sys:String>
 
     <sys:String x:Key="Error_Uri">Incorrect URI format</sys:String>
-    <sys:String x:Key="days">days</sys:String>
-    <sys:String x:Key="hours">hours</sys:String>
-    <sys:String x:Key="minutes">minutes</sys:String>
-    <sys:String x:Key="seconds">seconds</sys:String>
+    <sys:String x:Key="days">Days</sys:String>
+    <sys:String x:Key="hours">Hours</sys:String>
+    <sys:String x:Key="minutes">Minutes</sys:String>
+    <sys:String x:Key="seconds">Seconds</sys:String>
 
     <sys:String x:Key="Export">Export</sys:String>
     <sys:String x:Key="ReceiveAddressT">The FiiiCoin address are used for receiving FiiiCoin, we will suggest to generate new address for each transaction</sys:String>
@@ -293,7 +293,7 @@
     <sys:String x:Key="myself">myself</sys:String>
     <sys:String x:Key="shadow">Hide</sys:String>
     <sys:String x:Key="lastDataTime">Last data time</sys:String>
-    <sys:String x:Key="Error_enterOldPwd">enter old password error</sys:String>
+    <sys:String x:Key="Error_enterOldPwd">Enter old password error</sys:String>
     <sys:String x:Key="Error_NoNet">Connect to network failture</sys:String>
     <sys:String x:Key="Error_Date">Incorrect date format</sys:String>
 
@@ -310,6 +310,6 @@
     <sys:String x:Key="Closing_caption1">Closing FiiiCoin Wallet......</sys:String>
     <sys:String x:Key="Closing_caption2">Do not turn off the computer before this window closes</sys:String>
 
-    <sys:String x:Key="init_caption1">快捷、支付、高科技</sys:String>
-    <sys:String x:Key="init_caption2">加密算法</sys:String>
+    <sys:String x:Key="init_caption1">Fast. Pay. High technology</sys:String>
+    <sys:String x:Key="init_caption2">Encryption Algorithm</sys:String>
 </ResourceDictionary>

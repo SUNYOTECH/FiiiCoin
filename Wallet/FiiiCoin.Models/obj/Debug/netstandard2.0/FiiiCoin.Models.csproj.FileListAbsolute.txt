@@ -1,0 +1,8 @@
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\bin\Debug\netstandard2.0\FiiiCoin.Models.deps.json
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\bin\Debug\netstandard2.0\FiiiCoin.Models.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\bin\Debug\netstandard2.0\FiiiCoin.Models.pdb
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\netstandard2.0\FiiiCoin.Models.csproj.CoreCompileInputs.cache
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\netstandard2.0\FiiiCoin.Models.AssemblyInfoInputs.cache
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\netstandard2.0\FiiiCoin.Models.AssemblyInfo.cs
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\netstandard2.0\FiiiCoin.Models.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Models\obj\Debug\netstandard2.0\FiiiCoin.Models.pdb

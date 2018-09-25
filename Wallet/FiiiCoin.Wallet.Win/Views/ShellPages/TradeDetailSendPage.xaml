@@ -53,13 +53,13 @@
             <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="4" Grid.Column="1" Text="{Binding TradeRecordDetail.Address}" Margin="20 5"/>
 
             <TextBlock Grid.Row="5" Text="{DynamicResource tradeAmount}" Margin="0 5"/>
-            <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="5" Grid.Column="1" Text="{Binding TradeRecordDetail.TradeAmount,Converter={StaticResource _longToDoubleConverter}, StringFormat={}{0} Fiii}" Margin="20 5"/>
+            <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="5" Grid.Column="1" Text="{Binding TradeRecordDetail.TradeAmount,Converter={StaticResource _longToDoubleConverter}, StringFormat={}{0} FIII}" Margin="20 5"/>
 
             <TextBlock Grid.Row="6" Text="{DynamicResource tradefee}" Margin="0 5"/>
-            <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="6" Grid.Column="1" Text="{Binding TradeRecordDetail.Fee,Converter={StaticResource _longToDoubleConverter}, StringFormat={}{0} Fiii}" Margin="20 5"/>
+            <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="6" Grid.Column="1" Text="{Binding TradeRecordDetail.Fee,Converter={StaticResource _longToDoubleConverter}, StringFormat={}{0} FIII}" Margin="20 5"/>
 
             <TextBlock Grid.Row="7" Text="{DynamicResource tradeInAmount}" Margin="0 5"/>
-            <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="7" Grid.Column="1" Text="{Binding TradeRecordDetail.ArrivalAmount,Converter={StaticResource _longToDoubleConverter}, StringFormat={}{0} Fiii}" Margin="20 5"/>
+            <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="7" Grid.Column="1" Text="{Binding TradeRecordDetail.ArrivalAmount,Converter={StaticResource _longToDoubleConverter}, StringFormat={}{0} FIII}" Margin="20 5"/>
 
             <TextBlock Grid.Row="8" Text="{DynamicResource tradeTxid}" Margin="0 5"/>
             <TextBox IsReadOnly="True" BorderThickness="0" BorderBrush="Transparent" Grid.Row="8" Grid.Column="1" Text="{Binding TradeRecordDetail.TxId}" Margin="20 5"/>

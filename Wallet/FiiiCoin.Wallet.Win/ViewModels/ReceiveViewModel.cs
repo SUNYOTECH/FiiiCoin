@@ -91,6 +91,7 @@ namespace FiiiCoin.Wallet.Win.ViewModels
             {
                 Request();
             }
+            SendMessenger(Pages.ReceiveAddressPage, SendMessageTopic.Refresh);
         }
         
         void Request()
@@ -99,12 +100,13 @@ namespace FiiiCoin.Wallet.Win.ViewModels
             var result = FiiiCoinService.Default.CreateNewPaymentRequest(ReceiveData);
             if (!result.IsFail)
             {
+                SendMessenger(Pages.ReceiveAddressPage, SendMessageTopic.Refresh);
                 SendMessenger(Pages.RequestPayPage, result.Value);
                 UpdatePage(Pages.RequestPayPage);
             }
             else
             {
-                ShowMessage("数据错误");
+                ShowMessage(result.GetErrorMsg());
             }
         }
 

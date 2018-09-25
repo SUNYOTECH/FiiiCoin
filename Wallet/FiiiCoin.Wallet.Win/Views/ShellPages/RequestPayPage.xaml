@@ -50,7 +50,7 @@
                 <TextBox IsReadOnly="True" BorderBrush="Tan" BorderThickness="0" Grid.Row="0" Grid.Column="1" Text="{Binding QrCodeStr}" TextWrapping="WrapWithOverflow" Margin="15 20 0 0"/>
                 <TextBox IsReadOnly="True" BorderBrush="Tan" BorderThickness="0" Grid.Row="1" Grid.Column="1" Text="{Binding PayRequest.AccountId}" Margin="15 6 0 0"/>
                 <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" Margin="0 6 0 0" VerticalAlignment="Center">
-                    <TextBox IsReadOnly="True" BorderBrush="Tan" BorderThickness="0" Text="{Binding PayRequest.Amount,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0} Fiii}" Margin="15 0 0 0"/>
+                    <TextBox IsReadOnly="True" BorderBrush="Tan" BorderThickness="0" Text="{Binding PayRequest.Amount,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0} FIII}" Margin="15 0 0 0"/>
                 </StackPanel>
                 <TextBox IsReadOnly="True" BorderBrush="Tan" BorderThickness="0" Grid.Row="3" Grid.Column="1" Text="{Binding PayRequest.Tag}" Margin="15 6 0 0"/>
                 <TextBox IsReadOnly="True" BorderBrush="Tan" BorderThickness="0" Grid.Row="4" Grid.Column="1" Text="{Binding PayRequest.Comment}" Margin="15 6 0 0"/>

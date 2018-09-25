@@ -7,13 +7,13 @@ using System.Windows;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("FiiiCoin.Wallet.Win")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("FiiiCoin Wallet")]
+[assembly: AssemblyDescription("https://fiii.io/")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("FiiiLab Technology Ltd")]
 [assembly: AssemblyProduct("FiiiCoin.Wallet.Win")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("https://fiii.io/")]
+[assembly: AssemblyTrademark("FiiiLab Technology Ltd")]
 [assembly: AssemblyCulture("")]
 
 // 将 ComVisible 设置为 false 会使此程序集中的类型

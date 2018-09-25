@@ -6,27 +6,26 @@
       xmlns:vm="clr-namespace:FiiiCoin.Wallet.Win.ViewModels"
       xmlns:customcontrols="clr-namespace:FiiiCoin.Wallet.Win.CustomControls"
       mc:Ignorable="d" 
-      d:DesignHeight="823" d:DesignWidth="1920"
+      d:DesignHeight="768" d:DesignWidth="1024"
       Title="SendPage">
     <Page.DataContext>
         <vm:SendViewModel/>
     </Page.DataContext>
-    <Grid Background="#F4F6F9">
+    <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Border Background="White"/>
-
         <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Auto">
             <ItemsControl x:Name="items" ItemsSource="{Binding SendItems}" ItemTemplate="{StaticResource SendItemInfoDataTemplate}"/>
         </ScrollViewer>
+        
         <Border Grid.Row="1" Margin="30" Height="50" Background="#F0FAFF" BorderBrush="#E2F2FA" BorderThickness="1">
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="{DynamicResource Title_Tradefee}" VerticalAlignment="Center" Margin="20 0 0 0"/>
-                <TextBlock Text="{Binding Fee,StringFormat={}{0} Fiii/kb}" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <TextBlock Text="{Binding Fee,StringFormat={}{0:N8} FIII/kb}" VerticalAlignment="Center" Margin="20 0 0 0"/>
                 <Button Content="{DynamicResource Btn_Chose}" VerticalAlignment="Center" 
                         Margin="50 0 0 0" Command="{Binding ChoseFeeCommand}"
                         Width="80" Height="28" Background="#3B8EFF" Foreground="White"/>
@@ -60,7 +59,7 @@
                 </StackPanel>
                 <StackPanel Grid.Column="1 " Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 30 0">
                     <TextBlock Text="{DynamicResource Title_Over1}" VerticalAlignment="Center"/>
-                    <TextBlock Text="{Binding OverMoney,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0} Fiii}" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding OverMoney,Converter={StaticResource _longToDoubleConverter},StringFormat={}{0} FIII}" VerticalAlignment="Center"/>
                 </StackPanel>
             </Grid>
         </Border>

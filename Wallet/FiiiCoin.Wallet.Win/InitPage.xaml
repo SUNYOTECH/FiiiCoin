@@ -31,7 +31,7 @@
         <Image Stretch="Fill" Grid.RowSpan="2" Source="images/back_init.png"/>
         <StackPanel VerticalAlignment="Top" Orientation="Horizontal" Margin="40 40 0 0 ">
             <Image Width="50" Height="50" Source="images/logo1.png"/>
-            <TextBlock Text="Fiiicoin" Foreground="#498BF4" Margin="15 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26" FontFamily="PingFangSC-Regular"/>
+            <TextBlock Text="FiiiCoin" Foreground="#498BF4" Margin="15 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26" FontFamily="PingFangSC-Regular"/>
             <WrapPanel HorizontalAlignment="Center" Visibility="Collapsed">
                 <TextBlock Text="{DynamicResource Version_T}" Foreground="#498BF4" HorizontalAlignment="Center" FontSize="16" FontFamily="PingFangSC-Regular"/>
                 <TextBlock Text="0.1.0" Foreground="#498BF4" HorizontalAlignment="Center" FontSize="16" FontFamily="PingFangSC-Regular"/>
@@ -51,8 +51,8 @@
         </Grid>
 
         <Grid Grid.RowSpan="2" Margin="50 0 0 0" VerticalAlignment="Center" TextElement.FontStyle="Italic" TextElement.FontFamily="PingFangSC-Regular" TextElement.FontSize="30" TextElement.FontWeight="Bold" TextElement.Foreground="{StaticResource initColor}">
-            <TextBlock Text="{StaticResource init_caption1}" Margin="50 10 0 0"/>
-            <TextBlock Text="{StaticResource init_caption2}" Margin="50 80 0 0"/>
+            <TextBlock Text="{DynamicResource init_caption1}" Margin="50 10 0 0"/>
+            <TextBlock Text="{DynamicResource init_caption2}" Margin="50 80 0 0"/>
         </Grid>
 
         <TextBlock Text="{Binding Msg.Message}" Foreground="#498BF4" Grid.RowSpan="2"

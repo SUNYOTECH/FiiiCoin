@@ -27,9 +27,9 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
             }
         }
 
-        private double _defaultFee = 0.0104;
-        private double _otherFee = 0.01;
-        private double _tradeFee = 0.0104;
+        private double _defaultFee = 0.001;
+        private double _otherFee = 0.00001024;
+        private double _tradeFee = 0.001;
 
         public double TradeFee
         {
@@ -52,6 +52,8 @@ namespace FiiiCoin.Wallet.Win.ViewModels.ShellPages
             if (fee == _defaultFee)
             {
                 TimeGoal = TimeGoals.FirstOrDefault(x => x.Key == fee);
+                if (TimeGoal == null)
+                    TimeGoal = TimeGoals.FirstOrDefault();
             }
             else if (fee == _otherFee)
             {

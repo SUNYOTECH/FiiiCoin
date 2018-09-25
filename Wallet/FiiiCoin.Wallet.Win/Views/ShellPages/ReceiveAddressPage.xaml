@@ -24,12 +24,15 @@
 
         <TextBlock Grid.Row="1" Margin="20 20 20 10" Text="{DynamicResource ReceiveAddressT}"/>
 
-        <DataGrid Grid.Row="2" ItemsSource="{Binding UrlInfos}" RowHeaderWidth="0" SelectionMode="Single"
+        <DataGrid x:Name="dg_Urls" Grid.Row="2" ItemsSource="{Binding UrlInfos}" RowHeaderWidth="0" SelectionMode="Single"
                   VerticalGridLinesBrush="#F0F2F5" BorderThickness="0" SelectedItem="{Binding SelectedItem}"
                   HorizontalGridLinesBrush="#F0F2F5" RowHeight="40" Grid.ColumnSpan="4" Background="White" 
                   CanUserDeleteRows="False" VerticalContentAlignment="Center"
                   CanUserAddRows="False" IsReadOnly="True"
                   AutoGenerateColumns="False" Margin="20 0">
+            <DataGrid.InputBindings>
+                <MouseBinding Gesture="LeftDoubleClick" Command="{Binding MouseDubleClickCommand}" CommandParameter="{Binding ElementName=dg_Urls, Path=SelectedItem}" />
+            </DataGrid.InputBindings>
             <DataGrid.ColumnHeaderStyle>
                 <Style TargetType="DataGridColumnHeader">
                     <Setter Property="HorizontalContentAlignment" Value="Left"/>

@@ -39,7 +39,7 @@
                 <StackPanel x:Name="panel" Orientation="Horizontal" Canvas.Top="22" Canvas.Right="30" HorizontalAlignment="Right">
                     <TextBlock x:Name="tb_model" Text="+ "/>
                     <TextBlock Text="{Binding Payment.Amount,Converter={StaticResource _longToDoubleConverter}}"/>
-                    <TextBlock Text=" Fiii"/>
+                    <TextBlock Text=" FIII"/>
                 </StackPanel>
             </Canvas>
         </Border>

@@ -1,0 +1,14 @@
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\bin\Release\netstandard2.0\log4net.config
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\bin\Release\netstandard2.0\FiiiCoin.DTO.deps.json
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\bin\Release\netstandard2.0\FiiiCoin.DTO.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\bin\Release\netstandard2.0\FiiiCoin.DTO.pdb
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\bin\Release\netstandard2.0\FiiiCoin.Utility.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\bin\Release\netstandard2.0\FiiiCoin.Utility.pdb
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\bin\Release\netstandard2.0\zh\FiiiCoin.Utility.resources.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\obj\Release\netstandard2.0\FiiiCoin.DTO.csprojAssemblyReference.cache
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\obj\Release\netstandard2.0\FiiiCoin.DTO.csproj.CoreCompileInputs.cache
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\obj\Release\netstandard2.0\FiiiCoin.DTO.AssemblyInfoInputs.cache
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\obj\Release\netstandard2.0\FiiiCoin.DTO.AssemblyInfo.cs
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\obj\Release\netstandard2.0\FiiiCoin.DTO.csproj.CopyComplete
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\obj\Release\netstandard2.0\FiiiCoin.DTO.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.DTO\obj\Release\netstandard2.0\FiiiCoin.DTO.pdb

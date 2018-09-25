@@ -170,7 +170,8 @@ namespace FiiiCoin.Wallet.Win.ViewModels
             {
                 BlockSyncInfo blockSyncInfo = new BlockSyncInfo();
                 blockSyncInfo.AllBlockHeight = BlockSyncInfo.AllBlockHeight;
-                blockSyncInfo.StartTimeOffset = DateTimeUtil.GetDateTimeStamp(DateTime.Now);
+                blockSyncInfo.Progress = 0;
+                blockSyncInfo.TimeLeft = 0;
                 BlockSyncInfo = blockSyncInfo;
             }
         }

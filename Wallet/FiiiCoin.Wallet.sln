@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiiiCoin.Wallet.Test", "Fii
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiiiCoin.Wallet.Cli", "FiiiCoin.Wallet.Cli\FiiiCoin.Wallet.Cli.csproj", "{04F8B838-5CFD-4C83-A731-C1828499234F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FiiiCoin.Wallet", "FiiiCoin.Wallet\FiiiCoin.Wallet.vdproj", "{819EEC2A-2998-45D0-AF2F-5FF9B4C2820D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

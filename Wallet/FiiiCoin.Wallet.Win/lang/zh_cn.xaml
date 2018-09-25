@@ -98,10 +98,10 @@
     <sys:String x:Key="template_senditeminfo_tb_all">全部</sys:String>
 
     <sys:String x:Key="page_tradefee">交易费用</sys:String>
-    <sys:String x:Key="page_fee_tbk_recommended">推荐：0.0104 FIII / kb</sys:String>
+    <sys:String x:Key="page_fee_tbk_recommended">推荐：0.001 FIII / kb</sys:String>
     <sys:String x:Key="page_fee_tbk_sureTimeGoal">确定时间目标</sys:String>
     <sys:String x:Key="page_fee_txb_customer">自定义</sys:String>
-    <sys:String x:Key="page_fee_rb_prompt">只支付必要费用0.010 FIII / kb（选择此选项请看提示）</sys:String>
+    <sys:String x:Key="page_fee_rb_prompt">只支付必要费用0.00001024 FIII / kb（选择此选项请看提示）</sys:String>
     <sys:String x:Key="page_fee_txb_prompt">如果选择此选项，交易量小时允许只支付最小交易费。交易量大到超出网络可处理时您的交易可能永远无法确认。</sys:String>
 
 
@@ -188,7 +188,7 @@
     <sys:String x:Key="config_languageSwitch">语言切换</sys:String>
 
     <sys:String x:Key="config_help">帮助(H)</sys:String>
-    <sys:String x:Key="config_aboutFiiicoin">关于Fiiicoin</sys:String>
+    <sys:String x:Key="config_aboutFiiicoin">关于FiiiCoin</sys:String>
 
     <sys:String x:Key="config_overview">概况(O)</sys:String>
     <sys:String x:Key="config_Send">发送(S)</sys:String>
@@ -196,7 +196,7 @@
     <sys:String x:Key="config_transactions">交易记录(T)</sys:String>
 
     <sys:String x:Key="config_overview_tooltip">显示钱包概况</sys:String>
-    <sys:String x:Key="config_Send_tooltip">发送Fiiicoin 到Fiii 地址</sys:String>
+    <sys:String x:Key="config_Send_tooltip">发送FiiiCoin 到Fiii 地址</sys:String>
     <sys:String x:Key="config_receive_tooltip">请求支付(生成二维码和fiiicoin:URI)</sys:String>
     <sys:String x:Key="config_transactions_tooltip">查看交易历史</sys:String>
 

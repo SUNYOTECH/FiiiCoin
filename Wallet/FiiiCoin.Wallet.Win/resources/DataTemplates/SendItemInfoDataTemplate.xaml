@@ -95,7 +95,7 @@
                     </TextBox.Text>
                 </TextBox>
 
-                <TextBlock Text="Fiii" VerticalAlignment="Center"/>
+                <TextBlock Text="FIII" VerticalAlignment="Center"/>
                 <Button Style="{StaticResource LinkButtonStyle}" Content="{DynamicResource template_senditeminfo_tb_all}" 
                          Command="{Binding DataContext.AllCommand,RelativeSource={RelativeSource AncestorType=pages:SendPage}}" 
                                          CommandParameter="{Binding}"

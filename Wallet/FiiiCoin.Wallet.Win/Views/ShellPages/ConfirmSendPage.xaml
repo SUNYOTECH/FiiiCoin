@@ -27,7 +27,7 @@
 
         <TextBlock Grid.Row="1" Text="{DynamicResource ConfirmSend}" Margin="20 24 20 0"/>
 
-        <TextBlock Grid.Row="2" Text="{Binding ConfirmSendData.Amount,StringFormat={}{0:N8} Fiii}" Foreground="#3B8EFF" FontSize="20" Margin="20 5 0 0"/>
+        <TextBlock Grid.Row="2" Text="{Binding ConfirmSendData.Amount,StringFormat={}{0:N8} FIII}" Foreground="#3B8EFF" FontSize="20" Margin="20 5 0 0"/>
 
         <StackPanel Grid.Row="3"  Margin="20 10 20 0" Orientation="Horizontal" VerticalAlignment="Center">
             <TextBlock  Foreground="#666666" Text="{DynamicResource ToLable}"/>
@@ -41,14 +41,14 @@
         <Border Grid.Row="4" Background="#F4F6F9" Height="34" Margin="20 15 20 0" CornerRadius="2">
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                 <TextBlock Text="{DynamicResource tradefee}" Margin="10 0 0 0"/>
-                <TextBox IsReadOnly="True" Background="Transparent" BorderThickness="0" Text="{Binding ConfirmSendData.Fee,StringFormat={}{0:N8} Fiii}" Margin="5 0 0 0"/>
+                <TextBox IsReadOnly="True" Background="Transparent" BorderThickness="0" Text="{Binding ConfirmSendData.Fee,StringFormat={}{0:N8} FIII}" Margin="5 0 0 0"/>
             </StackPanel>
         </Border>
 
         <Border Grid.Row="5" Background="#F4F6F9" Height="34" Margin="20 15" CornerRadius="2">
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                 <TextBlock Text="{DynamicResource tradeInAmount}" Margin="10 0 0 0"/>
-                <TextBox IsReadOnly="True" Background="Transparent" BorderThickness="0" Text="{Binding ConfirmSendData.ArrivalAmount,StringFormat={}{0:N8} Fiii}" Margin="5 0 0 0"/>
+                <TextBox IsReadOnly="True" Background="Transparent" BorderThickness="0" Text="{Binding ConfirmSendData.ArrivalAmount,StringFormat={}{0:N8} FIII}" Margin="5 0 0 0"/>
             </StackPanel>
         </Border>
 

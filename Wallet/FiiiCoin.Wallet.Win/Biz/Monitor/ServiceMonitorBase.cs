@@ -1,10 +1,12 @@
 ﻿// Copyright (c) 2018 FiiiLab Technology Ltd
 // Distributed under the MIT software license, see the accompanying
 // file LICENSE or or http://www.opensource.org/licenses/mit-license.php.
+using FiiiCoin.Utility;
 using FiiiCoin.Wallet.Win.Common.interfaces;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace FiiiCoin.Wallet.Win.Biz.Monitor
 {
@@ -47,13 +49,18 @@ namespace FiiiCoin.Wallet.Win.Biz.Monitor
 
                     var result = ExecTaskAndGetResult();
                     if (result != null)
+                    {
                         MonitorCallBack.Invoke(result);
+                    }
 
                     Thread.Sleep(sleepInterval);
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    Application.Current.Dispatcher.Invoke(() =>
+                    {
+                        Logger.Singleton.Error(ex.Message);
+                    });
                 }
             }
         }
@@ -62,10 +69,21 @@ namespace FiiiCoin.Wallet.Win.Biz.Monitor
 
         protected void CallBack(T innerParmas)
         {
-            if (MonitorCallBack != null)
+            if (MonitorCallBack == null)
+                return;
+
+            try
             {
                 MonitorCallBack.Invoke(innerParmas);
             }
+            catch (Exception ex)
+            {
+                Application.Current.Dispatcher.Invoke(() =>
+                {
+                    Logger.Singleton.Error(ex.Message);
+                });
+            }
+
         }
     }
 }

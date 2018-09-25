@@ -1,0 +1,14 @@
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Debug\netstandard2.0\log4net.config
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Debug\netstandard2.0\FiiiCoin.Utility.deps.json
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Debug\netstandard2.0\FiiiCoin.Utility.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Debug\netstandard2.0\FiiiCoin.Utility.pdb
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\bin\Debug\netstandard2.0\zh\FiiiCoin.Utility.resources.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\FiiiCoin.Utility.Localization.SourceFiles.FiiiCoinLocalization.resources
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\FiiiCoin.Utility.Localization.SourceFiles.FiiiCoinLocalization.zh.resources
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\FiiiCoin.Utility.csproj.GenerateResource.cache
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\FiiiCoin.Utility.csproj.CoreCompileInputs.cache
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\FiiiCoin.Utility.AssemblyInfoInputs.cache
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\FiiiCoin.Utility.AssemblyInfo.cs
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\zh\FiiiCoin.Utility.resources.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\FiiiCoin.Utility.dll
+F:\Gits\FiiiCoin\Wallet\FiiiCoin.Utility\obj\Debug\netstandard2.0\FiiiCoin.Utility.pdb

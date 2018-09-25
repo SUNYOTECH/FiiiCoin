@@ -236,7 +236,7 @@ namespace FiiiCoin.Wallet.Win.ViewModels
             var result = saveFileDialog.ShowDialog(BootStrapService.Default.Shell.GetWindow());
             if (result.HasValue && result.Value)
             {
-                var content = AllTradeRecords.GetCsvContent();
+                var content = TradeRecords.GetCsvContent();
                 var file = saveFileDialog.FileName;
                 using (Stream stream = File.OpenWrite(file))
                 {
