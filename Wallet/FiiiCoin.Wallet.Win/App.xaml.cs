@@ -32,6 +32,8 @@ namespace FiiiCoin.Wallet.Win
             if (netType == NetworkType.MainnetPort)
             {
                 MessageBox.Show("FiiiChain Mainnet is not support now");
+                Thread.Sleep(1000);
+                Environment.Exit(1);
                 return;
             }
 
