@@ -70,8 +70,6 @@ For expert:
 
 3. Run the wallet by executing the FiiiCoin.Wallet.Win in the Wallet folder
 
-4. Run the mining application by executing the FiiiCoin.Miner in the Wallet folder
-
 For more info: [Link](https://github.com/FiiiLab/FiiiCoin/wiki/Getting-Started)
 
 # Mining
