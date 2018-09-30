@@ -78,7 +78,9 @@ Mining is not supported in PC version software for Delegate Proof of Capacity co
 
 # Explorer
 
-FiiiCoin testnet blockchain explorer is available now: https://explorer.fiii.io
+FiiiCoin blockchain explorer is available now!
+Mainnet - https://explorer.fiii.io
+Testnet - https://explorer-test.fiii.io
 
 # Faucet
 
